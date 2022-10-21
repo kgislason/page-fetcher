@@ -1,7 +1,7 @@
 /**
  * Page Fetcher
- * 
- * 
+ *
+ *
 // Downloaded and saved 3261 bytes to ./index.html
  */
 const fs = require("fs");
@@ -18,7 +18,7 @@ const filePath = args[1];
 let fileBody = '';
 let fileSize = 0;
 
-// Request the file from the url provided 
+// Request the file from the url provided
 request(url, (error, response, body) => {
   if (error !== null) {
     console.log(error);
